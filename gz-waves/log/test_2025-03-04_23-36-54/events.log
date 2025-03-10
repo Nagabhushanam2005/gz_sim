@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (gz-waves1) JobQueued: {'identifier': 'gz-waves1', 'dependencies': OrderedDict([('gz-waves1', '/home/zenith/gz_ws/src/asv_wave_sim/gz-waves/install')])}
+[0.000166] (gz-waves1) JobStarted: {'identifier': 'gz-waves1'}
+[0.000712] (gz-waves1) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 44, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.001009] (gz-waves1) JobEnded: {'identifier': 'gz-waves1', 'rc': 1}
+[0.011158] (-) EventReactorShutdown: {}

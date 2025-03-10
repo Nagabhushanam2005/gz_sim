@@ -1,0 +1,171 @@
+<sdf version='1.10'>
+  <world name='waves'>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
+      <render_engine>ogre2</render_engine>
+      <background_color>0.8 0.8 0.8</background_color>
+    </plugin>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
+    <scene>
+      <ambient>1 1 1 1</ambient>
+      <background>0.800000012 0.800000012 0.800000012 1</background>
+      <sky/>
+      <shadows>true</shadows>
+    </scene>
+    <gravity>0 0 -9.8000000000000007</gravity>
+    <magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <include>
+      <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/world_models/waves</uri>
+      <name>waves</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <model name='axes'>
+      <static>true</static>
+      <link name='link'>
+        <visual name='r'>
+          <cast_shadows>false</cast_shadows>
+          <pose>5 0 0.10000000000000001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>10 0.01 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+            <emissive>1 0 0 1</emissive>
+            <specular>0.5 0.5 0.5 1</specular>
+          </material>
+        </visual>
+        <visual name='g'>
+          <cast_shadows>false</cast_shadows>
+          <pose>0 5 0.10000000000000001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.01 10 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+            <emissive>0 1 0 1</emissive>
+            <specular>0.5 0.5 0.5 1</specular>
+          </material>
+        </visual>
+        <visual name='b'>
+          <cast_shadows>false</cast_shadows>
+          <pose>0 0 5.0999999999999996 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.01 0.01 10</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 1 1</ambient>
+            <diffuse>0 0 1 1</diffuse>
+            <emissive>0 0 1 1</emissive>
+            <specular>0.5 0.5 0.5 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+    <include>
+      <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/models/duck</uri>
+      <name>duck</name>
+      <pose>-12.655407223231627 13.325807080580848 -0.75464614257919249 -0.070106462372544046 -0.35600938618574485 2.9123693109806936</pose>
+    </include>
+    <include>
+      <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/models/spherical_buoy</uri>
+      <name>spherical_buoy</name>
+      <pose>-2.3313851692042302 7.8874820203844846 0.14574607129762815 -2.9705573107972807 -0.49999761691683764 0.6343531163020768</pose>
+    </include>
+    <include>
+      <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/models/wam-v</uri>
+      <name>wam-v</name>
+      <pose>-8.8889939912823746 3.1156372615494949 -0.15939495292577732 0.033452356422948588 -0.033508453013991052 -0.31744627642496809</pose>
+    </include>
+    <include>
+      <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/models/barrage</uri>
+      <name>barrage</name>
+      <pose>11.647461748179087 1.092231895400074 0.026330941765283351 -0.016627512710078302 -0.034920544171180491 1.3844351991252537</pose>
+    </include>
+    <model name='Boat (2)'>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/stl2sdf/Boat (2).stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file:///home/zenith/gz_ws/src/asv_wave_sim/stl2sdf/Boat (2).stl</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>-3.9100000000000001 2.1200000000000001 0 1.5699999999999998 0 0</pose>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.10000000000000001 -0.90000000000000002</direction>
+      <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+      <specular>0.600000024 0.600000024 0.600000024 1</specular>
+      <attenuation>
+        <range>10</range>
+        <linear>1</linear>
+        <constant>1</constant>
+        <quadratic>0</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>
