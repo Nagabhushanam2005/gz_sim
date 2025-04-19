@@ -90,3 +90,22 @@ gz_add_system(waves-model
     gz-common${GZ_COMMON_VER}::gz-common${GZ_COMMON_VER}
     gz-sim${GZ_SIM_VER}::gz-sim${GZ_SIM_VER}
 )
+
+
+# #################################################
+# gz_add_system(thrust-controller
+#   SOURCES
+#     ThrustController.cc
+#   PUBLIC_LINK_LIBS
+#     gz-common${GZ_COMMON_VER}::gz-common${GZ_COMMON_VER}
+#     gz-sim${GZ_SIM_VER}::gz-sim${GZ_SIM_VER}
+# )
+gz_add_system(thrust_controller
+  SOURCES ThrustController.cc
+  PUBLIC_LINK_LIBS
+  gz-sim${GZ_SIM_VER}::gz-sim${GZ_SIM_VER}
+  gz-msgs${GZ_MSGS_VER}::gz-msgs${GZ_MSGS_VER}
+    gz-transport${GZ_TRANSPORT_VER}::gz-transport${GZ_TRANSPORT_VER}
+  PRIVATE_LINK_LIBS
+  gz-common${GZ_COMMON_VER}::gz-common${GZ_COMMON_VER}
+)
