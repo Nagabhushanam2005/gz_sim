@@ -7,8 +7,8 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <!-- <uri>model://wam-v/meshes/WAM-V-Base.dae</uri> -->
-            <uri>model://Boat/meshes/boat.dae</uri>
+            <uri>model://wam-v/meshes/WAM-V-Base.dae</uri>
+            <!-- <uri>model://Boat/meshes/boat.dae</uri> -->
 
           </mesh>
         </geometry>
@@ -16,14 +16,15 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <!-- <uri>model://wam-v/meshes/wam-v-base_collision_406.stl</uri> -->
-            <uri>model://Boat/meshes/mesh.stl</uri>
+            <uri>model://wam-v/meshes/wam-v-base_collision_406.stl</uri>
+            <!-- <uri>model://Boat/meshes/boat.stl</uri> -->
           </mesh>
         </geometry>
       </collision>
       <inertial>
-        <pose>5 0 -0.2 0 0 0</pose>
-        <mass>1500</mass>
+        <!-- <pose>5 0 -0.2 0 0 0</pose> -->
+        <pose>0 0 0 0 0 0</pose>
+        <mass>88</mass>
         <inertia>
           <ixx>120</ixx>
           <ixy>0</ixy>

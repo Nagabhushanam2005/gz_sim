@@ -2,7 +2,7 @@
 
 rm -f simulation_log.txt
 
-gz sim -v4 -s -r waves.sdf > simulation_log.txt &
+gz sim -v4 -s -r "waves copy 2.sdf" > simulation_log.txt &
 SIM_PID=$!
 gz sim -v4 -g &
 SIM_PID_2=$!
@@ -20,7 +20,7 @@ fi
 sleep 50
 
 kill $SIM_PID $LOGGER_PID $SIM_PID_2
-if [[ -n "$THRUST_PID" ]]; then
+if [[ "$1" == "-pid" ]]; then
     kill $THRUST_PID
 fi
 
