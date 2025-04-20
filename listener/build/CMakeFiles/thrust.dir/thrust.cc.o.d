@@ -1,4 +1,5 @@
-CMakeFiles/thrust.dir/thrust.cc.o: /home/zenith/listener/thrust.cc \
+CMakeFiles/thrust.dir/thrust.cc.o: \
+ /home/zenith/gz_ws/src/asv_wave_sim/listener/thrust.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -153,7 +154,30 @@ CMakeFiles/thrust.dir/thrust.cc.o: /home/zenith/listener/thrust.cc \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/this_thread_sleep.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
+ /usr/include/c++/11/tr1/special_function_util.h \
+ /usr/include/c++/11/tr1/bessel_function.tcc \
+ /usr/include/c++/11/tr1/beta_function.tcc \
+ /usr/include/c++/11/tr1/ell_integral.tcc \
+ /usr/include/c++/11/tr1/exp_integral.tcc \
+ /usr/include/c++/11/tr1/hypergeometric.tcc \
+ /usr/include/c++/11/tr1/legendre_function.tcc \
+ /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/11/tr1/poly_hermite.tcc \
+ /usr/include/c++/11/tr1/poly_laguerre.tcc \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/mutex \
+ /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
  /usr/include/gz/msgs9/gz/msgs/double.pb.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
@@ -257,9 +281,7 @@ CMakeFiles/thrust.dir/thrust.cc.o: /home/zenith/listener/thrust.cc \
  /usr/include/google/protobuf/generated_enum_util.h \
  /usr/include/google/protobuf/message_lite.h \
  /usr/include/google/protobuf/metadata_lite.h \
- /usr/include/google/protobuf/stubs/once.h /usr/include/c++/11/mutex \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/google/protobuf/stubs/once.h \
  /usr/include/google/protobuf/map_type_handler.h \
  /usr/include/google/protobuf/parse_context.h \
  /usr/include/google/protobuf/io/zero_copy_stream.h \
@@ -287,6 +309,16 @@ CMakeFiles/thrust.dir/thrust.cc.o: /home/zenith/listener/thrust.cc \
  /usr/include/gz/msgs9/gz/msgs/details/header.pb.h \
  /usr/include/gz/msgs9/gz/msgs/time.pb.h \
  /usr/include/gz/msgs9/gz/msgs/details/time.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/odometry.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/details/odometry.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/pose.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/details/pose.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/vector3d.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/details/vector3d.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/quaternion.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/details/quaternion.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/twist.pb.h \
+ /usr/include/gz/msgs9/gz/msgs/details/twist.pb.h \
  /usr/include/gz/transport12/gz/transport/Node.hh \
  /usr/include/c++/11/optional \
  /usr/include/gz/transport12/gz/transport/AdvertiseOptions.hh \
@@ -317,4 +349,12 @@ CMakeFiles/thrust.dir/thrust.cc.o: /home/zenith/listener/thrust.cc \
  /usr/include/gz/transport12/gz/transport/TopicUtils.hh \
  /usr/include/gz/transport12/gz/transport/detail/Node.hh \
  /usr/include/gz/msgs9/gz/msgs/empty.pb.h \
- /usr/include/gz/msgs9/gz/msgs/details/empty.pb.h
+ /usr/include/gz/msgs9/gz/msgs/details/empty.pb.h \
+ /usr/include/gz/math7/gz/math/Quaternion.hh \
+ /usr/include/gz/math7/gz/math/Helpers.hh \
+ /usr/include/gz/math7/gz/math/config.hh \
+ /usr/include/gz/math7/gz/math/Export.hh \
+ /usr/include/gz/math7/gz/math/detail/Export.hh \
+ /usr/include/gz/math7/gz/math/Angle.hh \
+ /usr/include/gz/math7/gz/math/Vector3.hh \
+ /usr/include/gz/math7/gz/math/Matrix3.hh

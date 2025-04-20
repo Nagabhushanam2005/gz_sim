@@ -1,0 +1,265 @@
+[1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m7.9.0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/worlds/waves.sdf[0m[1;32m].[0m
+[1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [Physics.cc:889] [0m[1;36mLoaded [[0m[1;36mgz::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:525] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:444] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Sensors[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:421] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:261] [0m[1;36mWaiting for init[0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/waves/create[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/waves/remove[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/waves/set_pose[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/waves/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/waves/light_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/waves/set_physics[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/waves/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/waves/enable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/waves/disable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/waves/visual_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/waves/wheel_slip[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Imu[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mWavesModel: configuring[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WavesModel[0m[1;36m] for entity [[0m[1;36m4[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mWavesVisual: constructing[0m
+[1;32m[Msg] [0m[1;32mWavesVisual: configuring[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mstatic[0m[1;32m> to <[0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mtiles_x[0m[1;32m> to <[0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mtiles_y[0m[1;32m> to <[0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mmesh_deformation_method[0m[1;32m> to <[0m[1;32mDYNAMIC_GEOMETRY[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mtile_size: [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mcell_count: [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32malgorithm[0m[1;32m> to <[0m[1;32mfft[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mnumber[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mamplitude[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mperiod[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mphase[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mdirection[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m1[0m[1;32m [0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mscale[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m2[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mangle[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m0.628319[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32msteepness[0m[1;32m> to <[0m[1;32m3[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mwind_velocity[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m5[0m[1;32m [0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOverriding 'wind_velocity' using 'wind_speed'[0m[1;32m and 'wind_angle_deg'[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mwind_speed[0m[1;32m> to <[0m[1;32m20[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mwind_angle_deg[0m[1;32m> to <[0m[1;32m90[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mWavesVisual: subscribing to [[0m[1;32m/world/waves/waves[0m[1;32m][0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::WavesVisual[0m[1;36m] for entity [[0m[1;36m6[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::JointStatePublisher[0m[1;36m] for entity [[0m[1;36m12[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mOdometryPublisher publishing odometry on [[0m[1;32mmodel/wam-v/odometry[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOdometryPublisher publishing odometry with covariance on [[0m[1;32m/model/wam-v/odometry_with_covariance[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOdometryPublisher publishing Pose_V (TF) on [[0m[1;32m/model/wam-v/pose[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::OdometryPublisher[0m[1;36m] for entity [[0m[1;36m12[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::PosePublisher[0m[1;36m] for entity [[0m[1;36m12[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mThruster listening to commands on [[0m[1;32m/model/wam-v/joint/left_propeller_joint/cmd_thrust[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mThruster listening to enable_deadband on [[0m[1;32m/model/wam-v/joint/left_propeller_joint/enable_deadband[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [Thruster.cc:496] [0m[1;36mUsing velocity control for propeller joint.[0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Thruster[0m[1;36m] for entity [[0m[1;36m12[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mThruster listening to commands on [[0m[1;32m/model/wam-v/joint/right_propeller_joint/cmd_thrust[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mThruster listening to enable_deadband on [[0m[1;32m/model/wam-v/joint/right_propeller_joint/enable_deadband[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [Thruster.cc:496] [0m[1;36mUsing velocity control for propeller joint.[0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Thruster[0m[1;36m] for entity [[0m[1;36m12[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: configuring[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics enable: [0m[1;32mwam-v::base_link[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics enable: [0m[1;32mwam-v::left_engine_link[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics enable: [0m[1;32mwam-v::left_propeller_link[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics enable: [0m[1;32mwam-v::right_engine_link[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics enable: [0m[1;32mwam-v::right_propeller_link[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mdamping_on[0m[1;32m> to <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mviscous_drag_on[0m[1;32m> to <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mpressure_drag_on[0m[1;32m> to <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcDampL1[0m[1;32m> to <[0m[1;32m1e-06[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcDampL2[0m[1;32m> to <[0m[1;32m1e-06[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcDampR1[0m[1;32m> to <[0m[1;32m1e-06[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcDampR2[0m[1;32m> to <[0m[1;32m1e-06[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcPDrag1[0m[1;32m> to <[0m[1;32m100[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcPDrag2[0m[1;32m> to <[0m[1;32m100[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mfPDrag[0m[1;32m> to <[0m[1;32m0.4[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcSDrag1[0m[1;32m> to <[0m[1;32m100[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mcSDrag2[0m[1;32m> to <[0m[1;32m100[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mfSDrag[0m[1;32m> to <[0m[1;32m0.4[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mvRDrag[0m[1;32m> to <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;36m[Dbg] [SystemManager.cc:74] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Hydrodynamics[0m[1;36m] for entity [[0m[1;36m12[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/waves[0m[1;32m/control], [[0m[1;32m/world/waves[0m[1;32m/control/state] and [[0m[1;32m/world/waves[0m[1;32m/playback/control][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mWorld [[0m[1;32mwaves[0m[1;32m] initialized with [[0m[1;32mdefault_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[1;36m[Dbg] [SimulationRunner.cc:480] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m9[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m5[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m6[0m[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:491] [0m[1;36mCreating postupdate worker thread ([0m[1;36m7[0m[1;36m)[0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mstatic[0m[1;32m> to <[0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mupdate_rate[0m[1;32m> to <[0m[1;32m30[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mtile_size: [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mcell_count: [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32malgorithm[0m[1;32m> to <[0m[1;32mfft[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mnumber[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mamplitude[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mperiod[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m1[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mphase[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mdirection[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m1[0m[1;32m [0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mscale[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m2[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mangle[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m0.628319[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32msteepness[0m[1;32m> to <[0m[1;32m3[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter <[0m[1;32mwind_velocity[0m[1;32m> not found: [0m[1;32mUsing default value of <[0m[1;32m5[0m[1;32m [0m[1;32m0[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOverriding 'wind_velocity' using 'wind_speed'[0m[1;32m and 'wind_angle_deg'[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mwind_speed[0m[1;32m> to <[0m[1;32m20[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mParameter found - setting <[0m[1;32mwind_angle_deg[0m[1;32m> to <[0m[1;32m90[0m[1;32m>.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mConstructing Wavefield...[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mCreating WaveParameters.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mCreating OceanTile.[0m
+[1;32m[Msg] [0m[1;32mOceanTile: create tile[0m
+[1;32m[Msg] [0m[1;32mResolution:    [0m[1;32m128[0m[1;32m, [0m[1;32m128[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mNumFaces:      [0m[1;32m32768[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mTileSize:      [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSpacing:       [0m[1;32m2[0m[1;32m, [0m[1;32m2[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOceanTile: calculating vertices[0m
+[1;32m[Msg] [0m[1;32mOceanTile: calculating indices[0m
+[1;32m[Msg] [0m[1;32mOceanTile: assigning texture coords[0m
+[1;32m[Msg] [0m[1;32mCreating triangulated grid.[0m
+[1;32m[Msg] [0m[1;32mDone constructing Wavefield.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mCreating OceanTile.[0m
+[1;32m[Msg] [0m[1;32mOceanTile: create tile[0m
+[1;32m[Msg] [0m[1;32mResolution:    [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mNumFaces:      [0m[1;32m131072[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mTileSize:      [0m[1;32m256[0m[1;32m, [0m[1;32m256[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSpacing:       [0m[1;32m1[0m[1;32m, [0m[1;32m1[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOceanTile: calculating vertices[0m
+[1;32m[Msg] [0m[1;32mOceanTile: calculating indices[0m
+[1;32m[Msg] [0m[1;32mOceanTile: assigning texture coords[0m
+[1;32m[Msg] [0m[1;32mCreating triangulated grid.[0m
+[1;32m[Msg] [0m[1;32mWavesModel: created wavefield in entity [[0m[1;32m39[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mWavesModel: found wavefield with params[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mnumber:     [0m[1;32m1[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mscale:      [0m[1;32m2[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mangle:      [0m[1;32m0.628319[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mperiod:     [0m[1;32m1[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mamplitude:  [0m[1;32m0[0m[1;32m, [0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mwavenumber: [0m[1;32m4.0243[0m[1;32m, [0m[1;32m[0m
+[1;32m[Msg] [0m[1;32momega:      [0m[1;32m6.28319[0m[1;32m, [0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mphase:      [0m[1;32m0[0m[1;32m, [0m[1;32m[0m
+[1;32m[Msg] [0m[1;32msteepness:  [0m[1;32m0[0m[1;32m, [0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mdirection:  [0m[1;32m1[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: initialise physics[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: checking collision meshes for link [[0m[1;32mwam-v::base_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::base_link::collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mMESH[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mUri:        [0m[1;32mmodel://Boat/meshes/mesh.stl[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFilePath:   [0m[1;32m/home/zenith/gz_ws/src/asv_wave_sim/gz-waves-models/models/wam-v/model.sdf[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshFile:   [0m[1;32mmodel://Boat/meshes/mesh.stl[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m46404[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: checking collision meshes for link [[0m[1;32mwam-v::left_engine_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::left_engine_link::engine_vertical_axis_collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mBOX[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSize:       [0m[1;32m0.2[0m[1;32m [0m[1;32m0.1[0m[1;32m [0m[1;32m0.83[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshName:   [0m[1;32mwam-v.left_engine_link.engine_vertical_axis_collision.box[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m24[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::left_engine_link::engine_rear_end_collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mBOX[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSize:       [0m[1;32m0.12[0m[1;32m [0m[1;32m0.15[0m[1;32m [0m[1;32m0.12[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshName:   [0m[1;32mwam-v.left_engine_link.engine_rear_end_collision.box[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m24[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: checking collision meshes for link [[0m[1;32mwam-v::right_engine_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::right_engine_link::engine_vertical_axis_collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mBOX[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSize:       [0m[1;32m0.2[0m[1;32m [0m[1;32m0.1[0m[1;32m [0m[1;32m0.83[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshName:   [0m[1;32mwam-v.right_engine_link.engine_vertical_axis_collision.box[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m24[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::right_engine_link::engine_rear_end_collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mBOX[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSize:       [0m[1;32m0.12[0m[1;32m [0m[1;32m0.15[0m[1;32m [0m[1;32m0.12[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshName:   [0m[1;32mwam-v.right_engine_link.engine_rear_end_collision.box[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m24[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: checking collision meshes for link [[0m[1;32mwam-v::left_propeller_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::left_propeller_link::collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mCYLINDER[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mRadius:     [0m[1;32m0.24[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLength:     [0m[1;32m0.08[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshName:   [0m[1;32mwam-v.left_propeller_link.collision.cylinder[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m134[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: checking collision meshes for link [[0m[1;32mwam-v::right_propeller_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: including collision [[0m[1;32mwam-v::right_propeller_link::collision[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mType:       [0m[1;32mCYLINDER[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mRadius:     [0m[1;32m0.24[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLength:     [0m[1;32m0.08[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMeshName:   [0m[1;32mwam-v.right_propeller_link.collision.cylinder[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mVertex:     [0m[1;32m134[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: checking collision meshes for link [[0m[1;32mwam-v::imu_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: links:  [0m[1;32m5[0m[1;32m, meshes: [0m[1;32m5[0m[1;32m, collisions: [0m[1;32m5[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: initialising link [[0m[1;32mwam-v::base_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link has [[0m[1;32m1[0m[1;32m] collision meshes[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world pose: [0m[1;32m5[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world CoM pose: [0m[1;32m5[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link bounding box:[0m[1;32m size: [0m[1;32m6.78313[0m[1;32m [0m[1;32m3.875[0m[1;32m [0m[1;32m33.75[0m[1;32m center: [0m[1;32m8.39157[0m[1;32m [0m[1;32m1.9375[0m[1;32m [0m[1;32m25.4865[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: set water patch size: [0m[1;32m67.5[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: initialising link [[0m[1;32mwam-v::left_engine_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link has [[0m[1;32m2[0m[1;32m] collision meshes[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world pose: [0m[1;32m2.62622[0m[1;32m [0m[1;32m1.02713[0m[1;32m [0m[1;32m0.318237[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world CoM pose: [0m[1;32m2.62622[0m[1;32m [0m[1;32m1.02713[0m[1;32m [0m[1;32m0.318237[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link bounding box:[0m[1;32m size: [0m[1;32m0.34[0m[1;32m [0m[1;32m0.15[0m[1;32m [0m[1;32m0.83[0m[1;32m center: [0m[1;32m2.39622[0m[1;32m [0m[1;32m1.02713[0m[1;32m [0m[1;32m0.103237[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: set water patch size: [0m[1;32m2[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: initialising link [[0m[1;32mwam-v::right_engine_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link has [[0m[1;32m2[0m[1;32m] collision meshes[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world pose: [0m[1;32m2.62622[0m[1;32m [0m[1;32m-1.02713[0m[1;32m [0m[1;32m0.318237[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world CoM pose: [0m[1;32m2.62622[0m[1;32m [0m[1;32m-1.02713[0m[1;32m [0m[1;32m0.318237[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link bounding box:[0m[1;32m size: [0m[1;32m0.34[0m[1;32m [0m[1;32m0.15[0m[1;32m [0m[1;32m0.83[0m[1;32m center: [0m[1;32m2.39622[0m[1;32m [0m[1;32m-1.02713[0m[1;32m [0m[1;32m0.103237[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: set water patch size: [0m[1;32m2[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: initialising link [[0m[1;32mwam-v::left_propeller_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link has [[0m[1;32m1[0m[1;32m] collision meshes[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world pose: [0m[1;32m2.34807[0m[1;32m [0m[1;32m1.02713[0m[1;32m [0m[1;32m-0.191134[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world CoM pose: [0m[1;32m2.34807[0m[1;32m [0m[1;32m1.02713[0m[1;32m [0m[1;32m-0.191134[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link bounding box:[0m[1;32m size: [0m[1;32m0.0800002[0m[1;32m [0m[1;32m0.48[0m[1;32m [0m[1;32m0.48[0m[1;32m center: [0m[1;32m2.23807[0m[1;32m [0m[1;32m1.02713[0m[1;32m [0m[1;32m-0.191134[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: set water patch size: [0m[1;32m2[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: initialising link [[0m[1;32mwam-v::right_propeller_link[0m[1;32m][0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link has [[0m[1;32m1[0m[1;32m] collision meshes[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world pose: [0m[1;32m2.34807[0m[1;32m [0m[1;32m-1.02713[0m[1;32m [0m[1;32m-0.191134[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link world CoM pose: [0m[1;32m2.34807[0m[1;32m [0m[1;32m-1.02713[0m[1;32m [0m[1;32m-0.191134[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m [0m[1;32m0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: link bounding box:[0m[1;32m size: [0m[1;32m0.0800002[0m[1;32m [0m[1;32m0.48[0m[1;32m [0m[1;32m0.48[0m[1;32m center: [0m[1;32m2.23807[0m[1;32m [0m[1;32m-1.02713[0m[1;32m [0m[1;32m-0.191134[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: set water patch size: [0m[1;32m2[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mHydrodynamics: done initialise physics[0m
+[1;36m[Dbg] [SDFFeatures.cc:328] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[1;36m[Dbg] [SDFFeatures.cc:844] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[1;36m[Dbg] [ImuSensor.cc:149] [0m[1;36mIMU data for [[0m[1;36mwam-v::imu_link::imu_sensor[0m[1;36m] advertised on [[0m[1;36mworld/waves/model/wam-v/link/imu_link/sensor/imu_sensor/imu[0m[1;36m][0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/waves/scene/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/waves/scene/deletion[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/waves/state[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/waves[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [EntityComponentManager.cc:1655] [0m[1;36mUpdated state thread iterators: [0m[1;36m16[0m[1;36m threads processing around [0m[1;36m3[0m[1;36m entities each.[0m[1;36m[0m
+[1;36m[Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[1;36m[Dbg] [ServerPrivate.cc:115] [0m[1;36mServer received signal[[0m[1;36m2[0m[1;36m][0m
+[1;36m[Dbg] [Sensors.cc:452] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:293] [0m[1;36mRendering Thread initialized[0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:438] [0m[1;36mSensorsPrivate::RenderThread stopped[0m[1;36m[0m
+[1;36m[Dbg] [gz.cc:417] [0m[1;36mShutting down gz-sim-server[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:507] [0m[1;36mExiting postupdate worker thread ([0m[1;36mExiting postupdate worker thread ([0m[1;36m0[Dbg] [SimulationRunner.cc:507] [0m[1;36mExiting postupdate worker thread ([0m[1;36m7[0m[1;36mExiting postupdate worker thread ([Dbg] [SimulationRunner.cc:507] [0m[1;36mExiting postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[1;36m[0m
+[1;36m)[0m[1;36m5[0m[1;36m0[0m[1;36m)[0m[1;36m[Dbg] [SimulationRunner.cc:507] [Dbg] [SimulationRunner.cc:507] [0m[1;36mExiting postupdate worker thread ([0m[1;36m[0m
+[1;36mExiting postupdate worker thread ([0m[1;36mExiting postupdate worker thread ([0m[1;36m[0m
+[1;36m)[0m[1;36m1[0m[1;36mExiting postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[1;36m1[0m[1;36m[0m
+[1;36mExiting postupdate worker thread ()4[0m[1;36m[0m
+[1;36m6[0m[1;36m6[0m[1;36m)[0m[1;36m[0m
+[1;36m)[0m[1;36m[0m
+[1;36m[Dbg] [Sensors.cc:452] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[1;32m[Msg] [0m[1;32mWavesVisual: destructing[0m
